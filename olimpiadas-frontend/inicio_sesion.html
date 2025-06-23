@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style_ingreso_usuario.css"> </head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="viajeros.html">
+        <img src="imagenes/logo-olimpiadas.PNG" alt="Logo Viajeros">
+      </a>
+    </div>
+  </header>
+
+  <main class="form-page-container">
+    <div class="card-custom login-register-card p-4">
+      <h2 class="mb-4">Inicio de sesión</h2>
+      <form action="/login" method="POST">
+        <div class="mb-3">
+          <label for="username" class="form-label">ingrese su usuario</label>
+          <input type="text" class="form-control" id="username" name="username" placeholder="ingrese su usuario" required>
+        </div>
+        <div class="mb-4">
+          <label for="password" class="form-label">ingrese su contraseña</label>
+          <input type="password" class="form-control" id="password" name="password" placeholder="ingrese su contraseña" required>
+        </div>
+        <div class="d-grid gap-2 mb-3"> 
+          <a href="viajeros.html" class="btn btn-dark">enviar</a>
+        </div>
+        <a href="registro.html" class="btn btn-link text-dark text-decoration-none me-3">Registrarse</a>
+        <a href="olvido_contraseña.html" class="btn btn-link text-dark text-decoration-none">Olvido su contraseña?</a>
+      </form>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

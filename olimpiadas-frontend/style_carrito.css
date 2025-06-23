@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Comfortaa:wght@300..700&display=swap');
+ /* Importa la fuente Comfortaa desde Google Fonts */
+ 
+body {
+  font-family: 'Comfortaa', 'amarante'; /* Aplica la fuente Comfortaa */
+  background-color: #A0DFDC; /* Color de fondo general */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #F19C99; /* Color rosa del encabezado */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 80px;
+  border-radius: 39px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.logo2 a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.form-section, .card-custom { 
+  background-color: #F19C99; /* Fondo rosa */
+  border-radius: 40px; /* Bordes redondeados */
+  border: 2px solid black;
+  padding: 20px; /* Espacio interno */
+
+}
+
+.shopping-cart-section {
+    background-color: transparent; /* Fondo transparente para que se vea el de body */
+    padding: 20px;
+}
+
+.cart-card {
+    min-height: 400px; /* Altura mínima para las tarjetas del carrito */
+    padding: 30px;
+    text-align: center;
+}
+
+.cart-card h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.cart-add-package {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    cursor: pointer;
+}
+.cart-add-package:hover {
+    color: #555;
+}
+
+.cart-add-package i {
+    font-size: 1.5em;
+}
+.btn-dark {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+  color: white;
+}
+
+.btn-link.text-dark {
+  color: black !important;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.btn-link.text-dark i {
+  font-size: 1.2em;
+} 
